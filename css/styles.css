@@ -195,17 +195,18 @@ input[type="text"]:focus {
   margin: 0 auto;
 }
 
-/*
 #detailsC {
-	display: inline-block;
-	padding: 3px;
-	border: solid 1px black;
-	border-radius: 3px;
-	width: 600px;
-	height: 100px;
-	resize: vertical;
-	transition: box-shadow 0.4s  linear, border-color 0.3s linear;
+  display: inline-block;
+  padding: 3px;
+  border: solid 1px black;
+  border-radius: 3px;
+  width: 600px;
+  height: 100px;
+  resize: vertical;
+  transition: box-shadow 0.4s linear, border-color 0.3s linear;
 }
+
+/*
 #detailsC:hover {
 	border-color: blue;
 	box-shadow: 0 0 15px blue;
