@@ -6,9 +6,9 @@ var navigate = (function() {
     $('.' + dataName).toggle();
   });
 })();
-/*
+
 var main = document.getElementById("main");
-var generator = document.getElementById("generator");
+/*var generator = document.getElementById("generator");
 var gallery = document.getElementById("gallery");
 
 function switchGenerator() {
