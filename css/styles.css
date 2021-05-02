@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -106,6 +106,201 @@ body {
 .share-button:hover .share__link:nth-of-type(4) {
   transition-delay: 0.4s;
 }
+
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+
+body, html {
+  height: 100%;
+	margin: 0;
+	background-color: grey;
+}
+
+.bg{
+		background-color: #999999;
+		font-family: Lato;
+		font-size: 20px;
+		text-align: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200% 200%;
+}
+
+h1 {
+	text-decoration: underline;
+	margin: 0;
+}
+
+hr {
+	width: 50%;
+	border-color: black;
+	border: outset 2px #383b72;
+}
+
+label, output {
+	font-size: 15px;
+}
+
+button {
+	background-color: #1465e8;
+	opacity`: 0.5;
+	border: solid 2px white;
+	border-radius: 6px;
+	padding: 7px;
+	color: white;
+	font-family: Lato;
+	font-size: 15px;
+	text-shadow: 1px 1px #333333;
+	transition: background-color 0.3s linear;
+}
+button:hover {
+	background-color: #133ae8;
+}
+button:active {
+	background-color: #040fa5;
+}
+button:focus {
+	outline: none;
+}
+
+input[type="text"] {
+	display: inline-block;
+	padding: 3px;
+	border: solid 1px black;
+	border-radius: 3px;
+	transition: box-shadow 0.4s  linear, border-color 0.3s linear;
+}
+input[type="text"]:hover {
+	border-color: blue;
+	box-shadow: 0 0 15px blue;
+}
+input[type="text"]:active {
+	box-shadow: 0 0 15px #0500b2;
+}
+input[type="text"]:focus {
+	box-shadow: 0 0 15px #0500b2;
+	border-color: green;
+	outline: none;
+}
+
+
+#generator {
+	display: block;
+}
+#gallery {
+	display: none;
+	height: 100vh;
+}
+
+#details {
+	display: table;
+  margin: 0 auto;
+}
+
+#detailsC {
+	display: inline-block;
+	padding: 3px;
+	border: solid 1px black;
+	border-radius: 3px;
+	width: 600px;
+	height: 100px;
+	resize: vertical;
+	transition: box-shadow 0.4s  linear, border-color 0.3s linear;
+}
+#detailsC:hover {
+	border-color: blue;
+	box-shadow: 0 0 15px blue;
+}
+#detailsC:active {
+	box-shadow: 0 0 15px #0500b2;
+}
+#detailsC:focus {
+	box-shadow: 0 0 15px #0500b2;
+	border-color: green;
+	outline: none;
+}
+
+#textarea {
+	border: solid 1px black;
+	border-radius: 5px;
+	width: 600px;
+	height: 200px;
+
+	position: absolute;
+	left: 50%;
+	margin-left: -300px;
+	transition: box-shadow 0.4s  linear, border-color 0.3s linear;
+}
+#textarea:hover {
+	border-color: blue;
+	box-shadow: 0 0 15px blue;
+}
+#textarea:active {
+	box-shadow: 0 0 15px #0500b2;
+}
+#textarea:focus {
+	box-shadow: 0 0 15px #0500b2;
+	border-color: green;
+	outline: none;
+}
+
+
+.details {
+	font-size: 30px;
+	overflow: hidden;
+}
+.summary:focus {
+	outline: none
+}
+
+#normal {
+	transition: height 1s ease-out;
+}
+#normal:not([open]) {
+	height: 1.43em;
+}
+#normal[open] {
+	height: 4em;
+}
+
+#spin {
+	transition: height, 1s ease-out;
+}
+#spin:not([open]) {
+	height: 1.43em;
+	transform: rotate(0deg)
+
+}
+#spin[open] {
+	height: 4em;
+	font-size: 32px;
+	color: #420000;
+}
+
+#opacity {
+	transition: height 0.5s, opacity 0.5s ease-out;
+}
+#opacity:not([open]) {
+	height: 1.43em;
+}
+#opacity[open] {
+	height: 4em;
+}
+#opacity[open] p {
+	position: relative;
+	bottom: 25px;
+}
+#opacity[open] summary {
+	transition: opacity 1s, margin-left 1s ease-out;
+	opacity: 0;
+	margin-left: 50px;
+}
+#opacity not([open]) summary {
+	transition: margin-left 0.5s ease-out;
+	margin-left: 0;
+}
+
 
 #contact h1 {
   font-family: helvetica;
