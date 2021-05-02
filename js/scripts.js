@@ -146,11 +146,11 @@ function changeC2() {
   var detailsContent = document.getElementById("detailsContent");
   detailsContent.innerHTML = input.value;
 }
-/*
+
 //Generate code inside the textarea
 function generateCode() {
-	var textarea = document.getElementById("textarea");
-	var details = document.getElementById("detailsDIV");
+  var textarea = document.getElementById("textarea");
+  var details = document.getElementById("detailsDIV");
 
-	textarea.value = details.innerHTML;
+  textarea.value = details.innerHTML;
 }
