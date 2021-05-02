@@ -190,12 +190,12 @@ input[type="text"]:focus {
   height: 100vh;
 }
 
-/*
 #details {
-	display: table;
+  display: table;
   margin: 0 auto;
 }
 
+/*
 #detailsC {
 	display: inline-block;
 	padding: 3px;
