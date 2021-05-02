@@ -150,10 +150,11 @@ button:hover {
   background-color: #133ae8;
 }
 
-/*button:active {
-	background-color: #040fa5;
+button:active {
+  background-color: #040fa5;
 }
-button:focus {
+
+/*button:focus {
 	outline: none;
 }
 
