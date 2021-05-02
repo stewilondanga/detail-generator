@@ -95,25 +95,25 @@ function changeBorderC() {
 
   details.style.borderColor = colorpicker.value;
 }
-/*
+
 //Change Font
 function changeFont() {
-	var select = document.getElementById("font");
-	if (select.selectedIndex == "1") {
-		details.style.fontFamily = "serif";
-	} else if (select.selectedIndex == "2") {
-		details.style.fontFamily = "sans-serif";
-	} else if (select.selectedIndex == "3") {
-		details.style.fontFamily = "monospace";
-	} else if (select.selectedIndex == "4") {
-		details.style.fontFamily = "cursive";
-	} else if (select.selectedIndex == "5") {
-		details.style.fontFamily = "fantasy";
-	} else if (select.selectedIndex == "6") {
-		details.style.fontFamily = "system-ui";
-	}
+  var select = document.getElementById("font");
+  if (select.selectedIndex == "1") {
+    details.style.fontFamily = "serif";
+  } else if (select.selectedIndex == "2") {
+    details.style.fontFamily = "sans-serif";
+  } else if (select.selectedIndex == "3") {
+    details.style.fontFamily = "monospace";
+  } else if (select.selectedIndex == "4") {
+    details.style.fontFamily = "cursive";
+  } else if (select.selectedIndex == "5") {
+    details.style.fontFamily = "fantasy";
+  } else if (select.selectedIndex == "6") {
+    details.style.fontFamily = "system-ui";
+  }
 }
-
+/*
 //Change Font Size
 function changeFontS() {
 var rangeF = document.getElementById("fontR");
