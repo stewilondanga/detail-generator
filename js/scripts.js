@@ -15,12 +15,12 @@ function switchGenerator() {
   gallery.style.display = "none";
   generator.style.display = "block";
 }
-/*
-function switchGallery() {
-	generator.style.display = "none";
-	gallery.style.display = "block";
-}
 
+function switchGallery() {
+  generator.style.display = "none";
+  gallery.style.display = "block";
+}
+/*
 function switchMenu1() {
 	main.style.display = "none";
 	gallery.style.display = "block";
