@@ -295,11 +295,12 @@ input[type="text"]:focus {
   height: 4em;
 }
 
-/*
 #opacity[open] p {
-	position: relative;
-	bottom: 25px;
+  position: relative;
+  bottom: 25px;
 }
+
+/*
 #opacity[open] summary {
 	transition: opacity 1s, margin-left 1s ease-out;
 	opacity: 0;
