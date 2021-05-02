@@ -38,13 +38,13 @@ var summary = document.getElementById("summary");
 function range() {
   heightD.value = value;
 }
-/*
+
 //Change Width
 function changeW() {
-	var widthR = document.getElementById("widthR").value;
-	details.style.width = widthR + "px";
+  var widthR = document.getElementById("widthR").value;
+  details.style.width = widthR + "px";
 }
-
+/*
 //Change Height
 function changeH() {
 	var heightR = document.getElementById("heightR").value;
