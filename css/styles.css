@@ -348,11 +348,11 @@ input[type="text"]:focus {
   line-height: 200%;
 }
 
-/*
 .cal th:first-child {
   color: #f00;
 }
 
+/*
 .cal th:last-child {
   color: #04d;
 }
