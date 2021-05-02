@@ -232,11 +232,12 @@ input[type="text"]:focus {
   transition: box-shadow 0.4s linear, border-color 0.3s linear;
 }
 
-/*
 #textarea:hover {
-	border-color: blue;
-	box-shadow: 0 0 15px blue;
+  border-color: blue;
+  box-shadow: 0 0 15px blue;
 }
+
+/*
 #textarea:active {
 	box-shadow: 0 0 15px #0500b2;
 }
