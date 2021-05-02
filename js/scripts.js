@@ -20,12 +20,12 @@ function switchGallery() {
   generator.style.display = "none";
   gallery.style.display = "block";
 }
-/*
-function switchMenu1() {
-	main.style.display = "none";
-	gallery.style.display = "block";
-}
 
+function switchMenu1() {
+  main.style.display = "none";
+  gallery.style.display = "block";
+}
+/*
 function switchMenu2() {
 	main.style.display = "none";
 	generator.style.display = "block";
