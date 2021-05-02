@@ -50,13 +50,13 @@ function changeH() {
   var heightR = document.getElementById("heightR").value;
   details.style.height = heightR + "px";
 }
-/*
+
 //Change Padding
 function changePD() {
-	var paddingR = document.getElementById("paddingR").value;
-	details.style.padding = paddingR + "px";
+  var paddingR = document.getElementById("paddingR").value;
+  details.style.padding = paddingR + "px";
 }
-
+/*
 //Change border
 function changeBorder() {
 	var select = document.getElementById("border");
