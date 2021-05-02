@@ -82,13 +82,13 @@ function changeBorder() {
     details.style.borderStyle = "outset";
   }
 }
-/*
+
 //Change Border Width
 function changeBorderW() {
-	var borderW = document.getElementById("borderW").value;
-	details.style.borderWidth = borderW + "px";
+  var borderW = document.getElementById("borderW").value;
+  details.style.borderWidth = borderW + "px";
 }
-
+/*
 //Change Border Color
 function changeBorderC() {
 var colorpicker = document.getElementById("borderC");
