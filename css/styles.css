@@ -166,11 +166,12 @@ input[type="text"] {
   transition: box-shadow 0.4s linear, border-color 0.3s linear;
 }
 
-/*input[type="text"]:hover {
-	border-color: blue;
-	box-shadow: 0 0 15px blue;
+input[type="text"]:hover {
+  border-color: blue;
+  box-shadow: 0 0 15px blue;
 }
-input[type="text"]:active {
+
+/*input[type="text"]:active {
 	box-shadow: 0 0 15px #0500b2;
 }
 input[type="text"]:focus {
