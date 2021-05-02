@@ -283,10 +283,11 @@ input[type="text"]:focus {
   color: #420000;
 }
 
-/*
 #opacity {
-	transition: height 0.5s, opacity 0.5s ease-out;
+  transition: height 0.5s, opacity 0.5s ease-out;
 }
+
+/*
 #opacity:not([open]) {
 	height: 1.43em;
 }
