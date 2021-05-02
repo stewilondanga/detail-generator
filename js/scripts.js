@@ -10,12 +10,12 @@ var navigate = (function() {
 var main = document.getElementById("main");
 var generator = document.getElementById("generator");
 var gallery = document.getElementById("gallery");
-/*
-function switchGenerator() {
-	gallery.style.display = "none";
-	generator.style.display = "block";
-}
 
+function switchGenerator() {
+  gallery.style.display = "none";
+  generator.style.display = "block";
+}
+/*
 function switchGallery() {
 	generator.style.display = "none";
 	gallery.style.display = "block";
