@@ -154,10 +154,11 @@ button:active {
   background-color: #040fa5;
 }
 
-/*button:focus {
-	outline: none;
+button:focus {
+  outline: none;
 }
 
+/*
 input[type="text"] {
 	display: inline-block;
 	padding: 3px;
