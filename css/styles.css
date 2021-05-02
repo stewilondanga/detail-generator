@@ -306,12 +306,12 @@ input[type="text"]:focus {
   margin-left: 50px;
 }
 
-/*
 #opacity not([open]) summary {
-	transition: margin-left 0.5s ease-out;
-	margin-left: 0;
+  transition: margin-left 0.5s ease-out;
+  margin-left: 0;
 }
 
+/*
 
 #contact h1 {
   font-family: helvetica;
