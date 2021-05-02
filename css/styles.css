@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Lato");
+
+body, html {
+  height: 100%;
+  margin: 0;
+  background-color: grey;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -110,11 +117,6 @@
 
 
 
-body, html {
-  height: 100%;
-	margin: 0;
-	background-color: grey;
-}
 
 .bg{
 		background-color: #999999;
