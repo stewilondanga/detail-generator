@@ -181,11 +181,11 @@ input[type="text"]:focus {
   outline: none;
 }
 
-/*
 #generator {
-	display: block;
+  display: block;
 }
-#gallery {
+
+/*#gallery {
 	display: none;
 	height: 100vh;
 }
