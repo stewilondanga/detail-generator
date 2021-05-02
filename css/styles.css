@@ -107,20 +107,18 @@ body, html {
   transition-delay: 0.4s;
 }
 
-/*
-
-
-.bg{
-		background-color: #999999;
-		font-family: Lato;
-		font-size: 20px;
-		text-align: center;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 200% 200%;
+.bg {
+  background-color: #999999;
+  font-family: Lato;
+  font-size: 20px;
+  text-align: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 200% 200%;
 }
 
+/*
 h1 {
 	text-decoration: underline;
 	margin: 0;
