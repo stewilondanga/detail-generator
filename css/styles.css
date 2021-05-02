@@ -300,12 +300,13 @@ input[type="text"]:focus {
   bottom: 25px;
 }
 
-/*
 #opacity[open] summary {
-	transition: opacity 1s, margin-left 1s ease-out;
-	opacity: 0;
-	margin-left: 50px;
+  transition: opacity 1s, margin-left 1s ease-out;
+  opacity: 0;
+  margin-left: 50px;
 }
+
+/*
 #opacity not([open]) summary {
 	transition: margin-left 0.5s ease-out;
 	margin-left: 0;
