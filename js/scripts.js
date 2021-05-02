@@ -56,33 +56,33 @@ function changePD() {
   var paddingR = document.getElementById("paddingR").value;
   details.style.padding = paddingR + "px";
 }
-/*
+
 //Change border
 function changeBorder() {
-	var select = document.getElementById("border");
-	if (select.selectedIndex == "1") {
-		details.style.borderStyle = "none";
-	} else if (select.selectedIndex == "2") {
-		details.style.borderStyle = "hidden";
-	} else if (select.selectedIndex == "3") {
-		details.style.borderStyle = "solid";
-	} else if (select.selectedIndex == "4") {
-		details.style.borderStyle = "double";
-	} else if (select.selectedIndex == "5") {
-		details.style.borderStyle = "dotted";
-	} else if (select.selectedIndex == "6") {
-		details.style.borderStyle = "dashed";
-	} else if (select.selectedIndex == "8") {
-		details.style.borderStyle = "groove";
-	} else if (select.selectedIndex == "9") {
-		details.style.borderStyle = "ridge";
-	} else if (select.selectedIndex == "10") {
-		details.style.borderStyle = "inset";
-	} else if (select.selectedIndex == "11") {
-		details.style.borderStyle = "outset";
-	}
+  var select = document.getElementById("border");
+  if (select.selectedIndex == "1") {
+    details.style.borderStyle = "none";
+  } else if (select.selectedIndex == "2") {
+    details.style.borderStyle = "hidden";
+  } else if (select.selectedIndex == "3") {
+    details.style.borderStyle = "solid";
+  } else if (select.selectedIndex == "4") {
+    details.style.borderStyle = "double";
+  } else if (select.selectedIndex == "5") {
+    details.style.borderStyle = "dotted";
+  } else if (select.selectedIndex == "6") {
+    details.style.borderStyle = "dashed";
+  } else if (select.selectedIndex == "8") {
+    details.style.borderStyle = "groove";
+  } else if (select.selectedIndex == "9") {
+    details.style.borderStyle = "ridge";
+  } else if (select.selectedIndex == "10") {
+    details.style.borderStyle = "inset";
+  } else if (select.selectedIndex == "11") {
+    details.style.borderStyle = "outset";
+  }
 }
-
+/*
 //Change Border Width
 function changeBorderW() {
 	var borderW = document.getElementById("borderW").value;
