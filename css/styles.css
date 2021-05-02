@@ -252,11 +252,11 @@ input[type="text"]:focus {
   overflow: hidden;
 }
 
-/*
 .summary:focus {
-	outline: none
+  outline: none
 }
 
+/*
 #normal {
 	transition: height 1s ease-out;
 }
