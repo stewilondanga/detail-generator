@@ -61,248 +61,247 @@
 
   <!--MAIN-->
   <div class="bg">
-  	<!--GENERATOR-->
-  	<div id="generator">
-  		<br />
-  		<h1>Details tag generator</h1>
-  		<h2 style="position:relative;bottom: 20px;">Generator</h2>
+    <!--GENERATOR-->
+    <div id="generator">
+      <br />
+      <h1>Details tag generator</h1>
+      <h2 style="position:relative;bottom: 20px;">Generator</h2>
 
-  		<p>See preview at the end of the page!</p>
-  		<p><strong>Set dimensions</strong></p>
-  	<!--Change Width-->
-  	<label for="widthR">Width</label>
-  	<input id="widthR" type="range" onchange="widthD.value=value;changeW();" list="widthDL" min="125" max="700" value="600"></input>
-  	<output id="widthD">600</output>px
+      <p>See preview at the end of the page!</p>
+      <p><strong>Set dimensions</strong></p>
+      <!--Change Width-->
+      <label for="widthR">Width</label>
+      <input id="widthR" type="range" onchange="widthD.value=value;changeW();" list="widthDL" min="125" max="700" value="600"></input>
+      <output id="widthD">600</output>px
 
-  	<!--For Chrome (doesn't work on Firefox according to MDN)-->
-  	<datalist id="widthDL">
-  		<option value="125">
-  		<option value="200">
-  		<option value="250">
-  		<option value="300">
-  		<option value="350">
-  		<option value="400">
-  		<option value="450">
-  		<option value="500">
-  		<option value="550">
-  		<option value="600">
-  		<option value="650">
-  		<option value="700">
-  	</datalist>
+      <!--For Chrome (doesn't work on Firefox according to MDN)-->
+      <datalist id="widthDL">
+        <option value="125">
+        <option value="200">
+        <option value="250">
+        <option value="300">
+        <option value="350">
+        <option value="400">
+        <option value="450">
+        <option value="500">
+        <option value="550">
+        <option value="600">
+        <option value="650">
+        <option value="700">
+      </datalist>
 
-  	<br />
-  	<br />
+      <br />
+      <br />
 
-  	<!--Change Height-->
-  	<label for="heightR">Height</label>
-  	<input id="heightR" type="range" onchange="heightD.value=value;changeH();" list="heightDL" min="70" max="300" value="100"></input>
-  	<output id="heightD">100</output>px
+      <!--Change Height-->
+      <label for="heightR">Height</label>
+      <input id="heightR" type="range" onchange="heightD.value=value;changeH();" list="heightDL" min="70" max="300" value="100"></input>
+      <output id="heightD">100</output>px
 
-  	<datalist id="heightDL">
-  		<option value="100">
-  		<option value="150">
-  		<option value="200">
-  		<option value="250">
-  		<option value="300">
-  	</datalist>
+      <datalist id="heightDL">
+        <option value="100">
+        <option value="150">
+        <option value="200">
+        <option value="250">
+        <option value="300">
+      </datalist>
 
-  	<br />
-  	<br />
+      <br />
+      <br />
 
-  	<!--Change Padding-->
-  	<label for="paddingR">Padding</label>
-  	<input id="paddingR" type="range" onchange="paddingD.value=value;changePD();" list="paddingDL" min="0" max="50" value="0"></input>
-  	<output id="paddingD">0</output>px
+      <!--Change Padding-->
+      <label for="paddingR">Padding</label>
+      <input id="paddingR" type="range" onchange="paddingD.value=value;changePD();" list="paddingDL" min="0" max="50" value="0"></input>
+      <output id="paddingD">0</output>px
 
-  	<datalist id="paddingDL">
-  		<option value="10">
-  		<option value="20">
-  		<option value="30">
-  		<option value="40">
-  		<option value="50">
-  	</datalist>
+      <datalist id="paddingDL">
+        <option value="10">
+        <option value="20">
+        <option value="30">
+        <option value="40">
+        <option value="50">
+      </datalist>
 
-  	<br />
-  	<br />
+      <br />
+      <br />
 
-  	<hr />
+      <hr />
 
-  	<p><strong>Customize border</strong></p>
-  	<!--Change border-->
-  	<label for="border">Border</label>
-  	<select id="border" onchange="changeBorder()">
-  		<option disabled>────Normal Borders────</option>
-  		<option selected>None</option>
-  		<option>Hidden</option>
-  		<option>Solid</option>
-  		<option>Double</option>
-  		<option>Dotted</option>
-  		<option>Dashed</option>
-  		<option disabled>─────3D Borders─────</option>
-  		<option>Groove</option>
-  		<option>Ridge</option>
-  		<option>Inset</option>
-  		<option>Outset</option>
-  	</select>
+      <p><strong>Customize border</strong></p>
+      <!--Change border-->
+      <label for="border">Border</label>
+      <select id="border" onchange="changeBorder()">
+        <option disabled>────Normal Borders────</option>
+        <option selected>None</option>
+        <option>Hidden</option>
+        <option>Solid</option>
+        <option>Double</option>
+        <option>Dotted</option>
+        <option>Dashed</option>
+        <option disabled>─────3D Borders─────</option>
+        <option>Groove</option>
+        <option>Ridge</option>
+        <option>Inset</option>
+        <option>Outset</option>
+      </select>
 
-  	<br />
-  	<br />
+      <br />
+      <br />
 
-  	<!--Change border width-->
-  	<label for="borderW">Border Width</label>
-  	<input id="borderW" type="range" onchange="borderWD.value=value;changeBorderW();" min="1" max="10" value="1"></input>
-  	<output id="borderWD">1</output>px
+      <!--Change border width-->
+      <label for="borderW">Border Width</label>
+      <input id="borderW" type="range" onchange="borderWD.value=value;changeBorderW();" min="1" max="10" value="1"></input>
+      <output id="borderWD">1</output>px
 
-  	<br />
-  	<br />
+      <br />
+      <br />
 
-  	<!--Change border color-->
-  	<label for="borderC">Border Color</label>
-  	<input id="borderC" type="color" onchange="borderC.value=value;changeBorderC();" /></input>
+      <!--Change border color-->
+      <label for="borderC">Border Color</label>
+      <input id="borderC" type="color" onchange="borderC.value=value;changeBorderC();" /></input>
 
-  	<br />
-  	<br />
+      <br />
+      <br />
 
-  	<hr />
+      <hr />
 
-  	<p><strong>Customize font</strong></p>
-  	<!--Change font-->
-  	<label for="font">Font</label>
-  	<select id="font" onchange="changeFont()">
-  		<option disabled>─────Fonts─────</option>
-  		<option>Serif</option>
-  		<option selected>Sans-serif</option>
-  		<option>Monospace</option>
-  		<option>Cursive</option>
-  		<option>Fantasy</option>
-  		<option>System-UI</option>
-  	</select>
+      <p><strong>Customize font</strong></p>
+      <!--Change font-->
+      <label for="font">Font</label>
+      <select id="font" onchange="changeFont()">
+        <option disabled>─────Fonts─────</option>
+        <option>Serif</option>
+        <option selected>Sans-serif</option>
+        <option>Monospace</option>
+        <option>Cursive</option>
+        <option>Fantasy</option>
+        <option>System-UI</option>
+      </select>
 
-  	<br />
-  	<br />
+      <br />
+      <br />
 
-  	<!--Change font size-->
-  	<label for="fontR">Font Size</label>
-  	<input id="fontR" type="range" onchange="fontSD.value=value;changeFontS();" min="10" max="100" value="12"></input>
-  	<output id="fontSD">12</output>px
+      <!--Change font size-->
+      <label for="fontR">Font Size</label>
+      <input id="fontR" type="range" onchange="fontSD.value=value;changeFontS();" min="10" max="100" value="12"></input>
+      <output id="fontSD">12</output>px
 
-  	<br />
-  	<br />
+      <br />
+      <br />
 
-  	<!--Change font color-->
-  	<label for="fontC">Font Color</label>
-  	<input id="fontC" type="color" onchange="fontC.value=value;changeFontC();" /></input>
+      <!--Change font color-->
+      <label for="fontC">Font Color</label>
+      <input id="fontC" type="color" onchange="fontC.value=value;changeFontC();" /></input>
 
-  	<br />
-  	<br />
+      <br />
+      <br />
 
-  	<hr />
+      <hr />
 
-  	<p><strong>Change background color</strong></p>
-  	<!--Change background color-->
-  	<label for="bgC">Background Color</label>
-  	<input id="bgC" type="color" onchange="bgC.value=value;changeBgC();" /></input>
+      <p><strong>Change background color</strong></p>
+      <!--Change background color-->
+      <label for="bgC">Background Color</label>
+      <input id="bgC" type="color" onchange="bgC.value=value;changeBgC();" /></input>
 
-  	<br />
-  	<br />
+      <br />
+      <br />
 
-  	<hr />
+      <hr />
 
-  	<p><strong>Set the content</strong></p>
-  	<p>Summary Content</p>
-  	<input id="summaryC" type="text" onchange="changeC1()" />
-  	<p>Details Content</p>
-  	<textarea id="detailsC" onchange="changeC2()"></textarea>
+      <p><strong>Set the content</strong></p>
+      <p>Summary Content</p>
+      <input id="summaryC" type="text" onchange="changeC1()" />
+      <p>Details Content</p>
+      <textarea id="detailsC" onchange="changeC2()"></textarea>
 
-  	<br />
-  	<br />
+      <br />
+      <br />
 
-  	<hr />
+      <hr />
 
-  	<p><strong>Preview the result</strong></p>
-  	<div id="detailsDIV">
+      <p><strong>Preview the result</strong></p>
+      <div id="detailsDIV">
 
-  		<details style="width:600px;
+        <details style="width:600px;
   										height:100px;
   										border:none;
   										font-family: sans-serif;
   										font-size:12px;
   										color:black;
   										background-color:transparent;
-  										padding:0;"
-  		id="details">
-  			<summary style="outline:none;" id="summary">Summary</summary>
-  			<div id="detailsContent">Content</div>
-  		</details>
+  										padding:0;" id="details">
+          <summary style="outline:none;" id="summary">Summary</summary>
+          <div id="detailsContent">Content</div>
+        </details>
 
-  	</div>
+      </div>
 
-  	<br />
+      <br />
 
-  	<hr />
+      <hr />
 
-  	<!--Display Code-->
-  	<p><strong>Generate your code</strong></p>
-  	<button onclick="generateCode()">Generate</button>
+      <!--Display Code-->
+      <p><strong>Generate your code</strong></p>
+      <button onclick="generateCode()">Generate</button>
 
-  	<br />
-  	<br />
+      <br />
+      <br />
 
-  	<textarea id="textarea"></textarea>
+      <textarea id="textarea"></textarea>
 
-  	<br />
-  	<br />
-  	<br />
-  	<br />
-  	<br />
-  	<br />
-  	<br />
-  	<br />
-  	<br />
-  	<br />
-  	<br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
 
-  <p>Check out this details tag gallery!</p>
-  	<button onclick="switchGallery()">Gallery</button>
-  	<br />
-  	<br />
+      <p>Check out this details tag gallery!</p>
+      <button onclick="switchGallery()">Gallery</button>
+      <br />
+      <br />
 
-  	</div>
+    </div>
 
-  	<!--GALLERY-->
-  	<div id="gallery">
-  		<h1 id="header">Details Tag Gallery</h1>
-  		<h2 style="position:relative;bottom: 20px;">Gallery</h2>
-  		<p>This is a gallery of details tags styled with CSS I made. I would appreciate if you report (in the comments) any possible upgrades in the code, as I am a beginner in web development. Enjoy : ) !</p>
+    <!--GALLERY-->
+    <div id="gallery">
+      <h1 id="header">Details Tag Gallery</h1>
+      <h2 style="position:relative;bottom: 20px;">Gallery</h2>
+      <p>This is a gallery of details tags styled with CSS I made. I would appreciate if you report (in the comments) any possible upgrades in the code, as I am a beginner in web development. Enjoy : ) !</p>
 
-  		<button onclick="switchGenerator()">Generator</button>
-  		<br />
-  		<br />
+      <button onclick="switchGenerator()">Generator</button>
+      <br />
+      <br />
 
-  		<!--Normal with height transition-->
-  		<details class="detailsG" id="normal">
-  			<summary class="summary">Normal &lt;details&gt; with height transition</summary>
-  			<p>Some content here</p>
-  		</details>
+      <!--Normal with height transition-->
+      <details class="detailsG" id="normal">
+        <summary class="summary">Normal &lt;details&gt; with height transition</summary>
+        <p>Some content here</p>
+      </details>
 
-  		<br />
+      <br />
 
-  		<!--Color, font-size and height transition-->
-  		<details class="detailsG" id="spin">
-  			<summary class="summary">Color, font-size and height transition</summary>
-  			<p>Some content here</p>
-  		</details>
+      <!--Color, font-size and height transition-->
+      <details class="detailsG" id="spin">
+        <summary class="summary">Color, font-size and height transition</summary>
+        <p>Some content here</p>
+      </details>
 
-  		<br />
+      <br />
 
-  		<!--With disappering <summary> (opacity and margin-left)-->
-  		<details class="detailsG" onclick="opacity()" id="opacity">
-  			<summary class="summary">With disappering &lt;summary&gt; (opacity and margin-left)</summary>
-  			<p>Some content here</p>
-  		</details>
+      <!--With disappering <summary> (opacity and margin-left)-->
+      <details class="detailsG" onclick="opacity()" id="opacity">
+        <summary class="summary">With disappering &lt;summary&gt; (opacity and margin-left)</summary>
+        <p>Some content here</p>
+      </details>
 
-  		<br />
-  	</div>
+      <br />
+    </div>
   </div>
 
   <section id="contact">
