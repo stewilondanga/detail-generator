@@ -129,11 +129,11 @@ hr {
   border: outset 2px #383b72;
 }
 
-/*
 label, output {
-	font-size: 15px;
+  font-size: 15px;
 }
 
+/*
 button {
 	background-color: #1465e8;
 	opacity`: 0.5;
