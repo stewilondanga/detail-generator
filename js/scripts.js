@@ -127,14 +127,14 @@ function changeFontC() {
 
   details.style.color = colorpicker.value;
 }
-/*
+
 //Change Background Color
 function changeBgC() {
-var colorpicker = document.getElementById("bgC");
+  var colorpicker = document.getElementById("bgC");
 
-details.style.backgroundColor = colorpicker.value;
+  details.style.backgroundColor = colorpicker.value;
 }
-
+/*
 //Change content of the tag
 function changeC1() {
 	var input = document.getElementById("summaryC");
