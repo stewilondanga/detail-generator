@@ -113,14 +113,14 @@ function changeFont() {
     details.style.fontFamily = "system-ui";
   }
 }
-/*
+
 //Change Font Size
 function changeFontS() {
-var rangeF = document.getElementById("fontR");
+  var rangeF = document.getElementById("fontR");
 
-details.style.fontSize = rangeF.value + "px";
+  details.style.fontSize = rangeF.value + "px";
 }
-
+/*
 //Change Font Color
 function changeFontC() {
 var colorpicker = document.getElementById("fontC");
