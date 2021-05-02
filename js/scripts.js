@@ -34,11 +34,11 @@ function switchMenu2() {
 //GENERATOR
 var details = document.getElementById("details");
 var summary = document.getElementById("summary");
-/*
-function range() {
-	heightD.value=value;
-}
 
+function range() {
+  heightD.value = value;
+}
+/*
 //Change Width
 function changeW() {
 	var widthR = document.getElementById("widthR").value;
