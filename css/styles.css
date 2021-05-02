@@ -272,12 +272,12 @@ input[type="text"]:focus {
   transition: height, 1s ease-out;
 }
 
-/*
 #spin:not([open]) {
-	height: 1.43em;
-	transform: rotate(0deg)
-
+  height: 1.43em;
+  transform: rotate(0deg)
 }
+
+/*
 #spin[open] {
 	height: 4em;
 	font-size: 32px;
