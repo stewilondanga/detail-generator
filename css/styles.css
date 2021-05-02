@@ -185,11 +185,12 @@ input[type="text"]:focus {
   display: block;
 }
 
-/*#gallery {
-	display: none;
-	height: 100vh;
+#gallery {
+  display: none;
+  height: 100vh;
 }
 
+/*
 #details {
 	display: table;
   margin: 0 auto;
