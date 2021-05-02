@@ -264,11 +264,11 @@ input[type="text"]:focus {
   height: 1.43em;
 }
 
-/*
 #normal[open] {
-	height: 4em;
+  height: 4em;
 }
 
+/*
 #spin {
 	transition: height, 1s ease-out;
 }
