@@ -8,8 +8,8 @@ var navigate = (function() {
 })();
 
 var main = document.getElementById("main");
-/*var generator = document.getElementById("generator");
-var gallery = document.getElementById("gallery");
+var generator = document.getElementById("generator");
+/*var gallery = document.getElementById("gallery");
 
 function switchGenerator() {
 	gallery.style.display = "none";
