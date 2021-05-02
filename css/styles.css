@@ -221,18 +221,18 @@ input[type="text"]:focus {
   outline: none;
 }
 
-/*
 #textarea {
-	border: solid 1px black;
-	border-radius: 5px;
-	width: 600px;
-	height: 200px;
-
-	position: absolute;
-	left: 50%;
-	margin-left: -300px;
-	transition: box-shadow 0.4s  linear, border-color 0.3s linear;
+  border: solid 1px black;
+  border-radius: 5px;
+  width: 600px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  margin-left: -300px;
+  transition: box-shadow 0.4s linear, border-color 0.3s linear;
 }
+
+/*
 #textarea:hover {
 	border-color: blue;
 	box-shadow: 0 0 15px blue;
