@@ -146,10 +146,11 @@ button {
   transition: background-color 0.3s linear;
 }
 
-/*button:hover {
-	background-color: #133ae8;
+button:hover {
+  background-color: #133ae8;
 }
-button:active {
+
+/*button:active {
 	background-color: #040fa5;
 }
 button:focus {
