@@ -133,20 +133,20 @@ label, output {
   font-size: 15px;
 }
 
-/*
 button {
-	background-color: #1465e8;
-	opacity`: 0.5;
-	border: solid 2px white;
-	border-radius: 6px;
-	padding: 7px;
-	color: white;
-	font-family: Lato;
-	font-size: 15px;
-	text-shadow: 1px 1px #333333;
-	transition: background-color 0.3s linear;
+  background-color: #1465e8;
+  opacity`: 0.5;
+  border: solid 2px white;
+  border-radius: 6px;
+  padding: 7px;
+  color: white;
+  font-family: Lato;
+  font-size: 15px;
+  text-shadow: 1px 1px #333333;
+  transition: background-color 0.3s linear;
 }
-button:hover {
+
+/*button:hover {
 	background-color: #133ae8;
 }
 button:active {
