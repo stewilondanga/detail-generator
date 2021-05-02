@@ -211,10 +211,11 @@ input[type="text"]:focus {
   box-shadow: 0 0 15px blue;
 }
 
-/*
 #detailsC:active {
-	box-shadow: 0 0 15px #0500b2;
+  box-shadow: 0 0 15px #0500b2;
 }
+
+/*
 #detailsC:focus {
 	box-shadow: 0 0 15px #0500b2;
 	border-color: green;
