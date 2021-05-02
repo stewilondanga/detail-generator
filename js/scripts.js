@@ -120,14 +120,14 @@ function changeFontS() {
 
   details.style.fontSize = rangeF.value + "px";
 }
-/*
+
 //Change Font Color
 function changeFontC() {
-var colorpicker = document.getElementById("fontC");
+  var colorpicker = document.getElementById("fontC");
 
-details.style.color = colorpicker.value;
+  details.style.color = colorpicker.value;
 }
-
+/*
 //Change Background Color
 function changeBgC() {
 var colorpicker = document.getElementById("bgC");
