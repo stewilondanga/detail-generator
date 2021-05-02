@@ -134,12 +134,13 @@ function changeBgC() {
 
   details.style.backgroundColor = colorpicker.value;
 }
-/*
+
 //Change content of the tag
 function changeC1() {
-	var input = document.getElementById("summaryC");
-	summary.innerHTML = input.value;
+  var input = document.getElementById("summaryC");
+  summary.innerHTML = input.value;
 }
+/*
 function changeC2() {
 	var input = document.getElementById("detailsC");
 	var detailsContent = document.getElementById("detailsContent");
