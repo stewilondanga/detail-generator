@@ -25,12 +25,12 @@ function switchMenu1() {
   main.style.display = "none";
   gallery.style.display = "block";
 }
-/*
-function switchMenu2() {
-	main.style.display = "none";
-	generator.style.display = "block";
-}
 
+function switchMenu2() {
+  main.style.display = "none";
+  generator.style.display = "block";
+}
+/*
 //GENERATOR
 var details = document.getElementById("details");
 var summary = document.getElementById("summary");
