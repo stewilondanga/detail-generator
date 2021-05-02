@@ -140,13 +140,13 @@ function changeC1() {
   var input = document.getElementById("summaryC");
   summary.innerHTML = input.value;
 }
-/*
-function changeC2() {
-	var input = document.getElementById("detailsC");
-	var detailsContent = document.getElementById("detailsContent");
-	detailsContent.innerHTML = input.value;
-}
 
+function changeC2() {
+  var input = document.getElementById("detailsC");
+  var detailsContent = document.getElementById("detailsContent");
+  detailsContent.innerHTML = input.value;
+}
+/*
 //Generate code inside the textarea
 function generateCode() {
 	var textarea = document.getElementById("textarea");
