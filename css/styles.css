@@ -247,12 +247,12 @@ input[type="text"]:focus {
   outline: none;
 }
 
-/*
-
 .details {
-	font-size: 30px;
-	overflow: hidden;
+  font-size: 30px;
+  overflow: hidden;
 }
+
+/*
 .summary:focus {
 	outline: none
 }
