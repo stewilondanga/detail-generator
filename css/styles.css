@@ -256,10 +256,11 @@ input[type="text"]:focus {
   outline: none
 }
 
-/*
 #normal {
-	transition: height 1s ease-out;
+  transition: height 1s ease-out;
 }
+
+/*
 #normal:not([open]) {
 	height: 1.43em;
 }
