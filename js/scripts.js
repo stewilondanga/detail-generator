@@ -30,11 +30,11 @@ function switchMenu2() {
   main.style.display = "none";
   generator.style.display = "block";
 }
-/*
+
 //GENERATOR
 var details = document.getElementById("details");
 var summary = document.getElementById("summary");
-
+/*
 function range() {
 	heightD.value=value;
 }
