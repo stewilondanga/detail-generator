@@ -175,13 +175,13 @@ input[type="text"]:active {
   box-shadow: 0 0 15px #0500b2;
 }
 
-/*input[type="text"]:focus {
-	box-shadow: 0 0 15px #0500b2;
-	border-color: green;
-	outline: none;
+input[type="text"]:focus {
+  box-shadow: 0 0 15px #0500b2;
+  border-color: green;
+  outline: none;
 }
 
-
+/*
 #generator {
 	display: block;
 }
