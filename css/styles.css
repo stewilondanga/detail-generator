@@ -123,13 +123,13 @@ h1 {
   margin: 0;
 }
 
-/*
 hr {
-	width: 50%;
-	border-color: black;
-	border: outset 2px #383b72;
+  width: 50%;
+  border-color: black;
+  border: outset 2px #383b72;
 }
 
+/*
 label, output {
 	font-size: 15px;
 }
