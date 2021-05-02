@@ -44,13 +44,13 @@ function changeW() {
   var widthR = document.getElementById("widthR").value;
   details.style.width = widthR + "px";
 }
-/*
+
 //Change Height
 function changeH() {
-	var heightR = document.getElementById("heightR").value;
-	details.style.height = heightR + "px";
+  var heightR = document.getElementById("heightR").value;
+  details.style.height = heightR + "px";
 }
-
+/*
 //Change Padding
 function changePD() {
 	var paddingR = document.getElementById("paddingR").value;
