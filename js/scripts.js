@@ -88,14 +88,14 @@ function changeBorderW() {
   var borderW = document.getElementById("borderW").value;
   details.style.borderWidth = borderW + "px";
 }
-/*
+
 //Change Border Color
 function changeBorderC() {
-var colorpicker = document.getElementById("borderC");
+  var colorpicker = document.getElementById("borderC");
 
-details.style.borderColor = colorpicker.value;
+  details.style.borderColor = colorpicker.value;
 }
-
+/*
 //Change Font
 function changeFont() {
 	var select = document.getElementById("font");
